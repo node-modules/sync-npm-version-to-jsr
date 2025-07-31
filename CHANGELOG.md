@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.3...v1.0.4) (2025-07-31)
+
+
+### Bug Fixes
+
+* npm pkg fix bin script ([145c812](https://github.com/node-modules/sync-npm-version-to-jsr/commit/145c812b9a23f439ea2a3a8f73e18c135545d943))
+
 ## [1.0.2](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.1...v1.0.2) (2025-07-31)
 
 
