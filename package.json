@@ -1,6 +1,6 @@
 {
   "name": "sync-npm-version-to-jsr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },

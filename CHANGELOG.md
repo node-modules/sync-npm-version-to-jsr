@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.1...v1.0.2) (2025-07-31)
+
+
+### Bug Fixes
+
+* add postversion hook ([02b8503](https://github.com/node-modules/sync-npm-version-to-jsr/commit/02b85039d7ce539e0f038d5abcfeb48434d8ce4b))
+* build first ([358b11a](https://github.com/node-modules/sync-npm-version-to-jsr/commit/358b11abb9569666ee350d241c76e66364816481))
+* use npx sync-npm-version-to-jsr ([649bce4](https://github.com/node-modules/sync-npm-version-to-jsr/commit/649bce4dcc8ea788b442416a15f2f505c586d4c0))
+
 ## [1.0.1](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.0...v1.0.1) (2025-07-31)
 
 
