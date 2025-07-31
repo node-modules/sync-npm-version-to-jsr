@@ -1,0 +1,57 @@
+{
+  "name": "sync-npm-version-to-jsr",
+  "version": "1.0.0",
+  "description": "sync package.json version to jsr.json",
+  "keywords": [
+    "jsr"
+  ],
+  "homepage": "https://github.com/node-modules/sync-npm-version-to-jsr#readme",
+  "bugs": {
+    "url": "https://github.com/node-modules/sync-npm-version-to-jsr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-modules/sync-npm-version-to-jsr.git"
+  },
+  "license": "MIT",
+  "author": "fengmk2",
+  "engines": {
+    "node": ">= 22.17.0"
+  },
+  "devDependencies": {
+    "@eggjs/tsconfig": "3",
+    "@types/node": "24",
+    "c8": "10",
+    "husky": "9",
+    "mm": "4",
+    "oxlint": "1",
+    "prettier": "3",
+    "typescript": "5"
+  },
+  "scripts": {
+    "lint": "oxlint",
+    "pretest": "npm run lint -- --fix",
+    "test": "node --test --experimental-strip-types",
+    "preci": "npm run lint",
+    "ci": "npm run prepublishOnly",
+    "prepublishOnly": "tsc -b --clean && tsc && node dist/bin.js",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown --cache",
+    "*.{ts,js,json,md,yml}": [
+      "prettier --ignore-unknown --write",
+      "oxlint --fix"
+    ]
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "type": "module",
+  "bin": {
+    "sync-npm-version-to-jsr": "./dist/bin.js"
+  },
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts"
+}
