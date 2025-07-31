@@ -27,7 +27,7 @@ Use `postversion` hook on [semantic-release](https://github.com/semantic-release
 
 {
   "scripts": {
-    "postversion": "npx sync-npm-version-to-jsr"
+    "postversion": "npx sync-npm-version-to-jsr && git add ."
   }
 }
 ```
