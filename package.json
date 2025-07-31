@@ -37,7 +37,7 @@
     "test": "node --test --experimental-strip-types",
     "preci": "npm run lint",
     "ci": "npm run prepublishOnly && npm run postversion",
-    "postversion": "npm run prepublishOnly && node dist/bin.js && git add .",
+    "postversion": "npm run prepublishOnly && node dist/bin.js && git add jsr.json",
     "prepublishOnly": "tsc -b --clean && tsc",
     "prepare": "husky"
   },
@@ -54,7 +54,7 @@
   ],
   "type": "module",
   "bin": {
-    "sync-npm-version-to-jsr": "./dist/bin.js"
+    "sync-npm-version-to-jsr": "dist/bin.js"
   },
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts"
