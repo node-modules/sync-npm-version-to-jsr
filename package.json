@@ -1,6 +1,9 @@
 {
   "name": "sync-npm-version-to-jsr",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "sync package.json version to jsr.json",
   "keywords": [
     "jsr"
