@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.5...v1.0.6) (2025-07-31)
+
+
+### Bug Fixes
+
+* let bin run ([2f04fa4](https://github.com/node-modules/sync-npm-version-to-jsr/commit/2f04fa4f29e9c6fd921294cc0aa8885eafc8de1a))
+
 ## [1.0.5](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.4...v1.0.5) (2025-07-31)
 
 
