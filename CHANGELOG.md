@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.4...v1.0.5) (2025-07-31)
+
+
+### Bug Fixes
+
+* jsr checkout master ref ([a72e298](https://github.com/node-modules/sync-npm-version-to-jsr/commit/a72e29893c5ddb4cba3b81e5200bcb05a3dbb50e))
+
 ## [1.0.4](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.3...v1.0.4) (2025-07-31)
 
 
