@@ -37,7 +37,7 @@
     "test": "node --test --experimental-strip-types",
     "preci": "npm run lint",
     "ci": "npm run prepublishOnly && npm run postversion",
-    "postversion": "node dist/bin.js",
+    "postversion": "npx sync-npm-version-to-jsr",
     "prepublishOnly": "tsc -b --clean && tsc",
     "prepare": "husky"
   },
