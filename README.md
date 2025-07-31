@@ -1,7 +1,7 @@
 # sync-npm-version-to-jsr
 
-[![JSR](https://jsr.io/badges/@eggjs/sync-npm-version-to-jsr)](https://jsr.io/@eggjs/sync-npm-version-to-jsr)
-[![JSR Score](https://jsr.io/badges/@eggjs/sync-npm-version-to-jsr/score)](https://jsr.io/@eggjs/sync-npm-version-to-jsr)
+[![JSR](https://jsr.io/badges/@nm/sync-npm-version-to-jsr)](https://jsr.io/@nm/sync-npm-version-to-jsr)
+[![JSR Score](https://jsr.io/badges/@nm/sync-npm-version-to-jsr/score)](https://jsr.io/@nm/sync-npm-version-to-jsr)
 [![NPM Version](https://img.shields.io/npm/v/sync-npm-version-to-jsr)](https://www.npmjs.com/package/sync-npm-version-to-jsr)
 [![NPM Downloads](https://img.shields.io/npm/dm/sync-npm-version-to-jsr)](https://www.npmjs.com/package/sync-npm-version-to-jsr)
 [![NPM License](https://img.shields.io/npm/l/sync-npm-version-to-jsr)](https://github.com/node-modules/sync-npm-version-to-jsr/blob/master/LICENSE)
@@ -16,6 +16,20 @@ sync package.json version to jsr.json
 
 ```bash
 npx sync-npm-version-to-jsr
+```
+
+Use `postversion` hook on [semantic-release](https://github.com/semantic-release/semantic-release/blob/fdc35bda3c00a5ae79234ea4e2e6ed05ef4ac501/docs/support/FAQ.md?plain=1#L61)
+
+> the `postversion` hook so it will be executed during the `prepare` step of `@semantic-release/npm`, which allow for example to update files before committing them with the [`@semantic-release/git`](https://github.com/semantic-release/git) plugin
+
+```json
+// package.json
+
+{
+  "scripts": {
+    "postversion": "npx sync-npm-version-to-jsr"
+  }
+}
 ```
 
 ## License
