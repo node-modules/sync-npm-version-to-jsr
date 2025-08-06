@@ -10,7 +10,6 @@ jobs:
     uses: node-modules/github-actions/.github/workflows/npm-release.yml@npm-trusted-publish
     with:
       action_ref: npm-trusted-publish
-      dryRun: true
 
   release-to-jsr:
     name: JSR
