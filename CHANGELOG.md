@@ -1,5 +1,12 @@
 # Changelog
 
+## <small>1.0.7 (2025-08-06)</small>
+
+* chore: add GIT_TOKEN ([2a27772](https://github.com/node-modules/sync-npm-version-to-jsr/commit/2a27772))
+* chore: remove dryRun ([1c9ccaf](https://github.com/node-modules/sync-npm-version-to-jsr/commit/1c9ccaf))
+* chore: remove GIT_TOKEN ([706eddd](https://github.com/node-modules/sync-npm-version-to-jsr/commit/706eddd))
+* fix: debug npm trusted publisher ([12cda90](https://github.com/node-modules/sync-npm-version-to-jsr/commit/12cda90))
+
 ## [1.0.6](https://github.com/node-modules/sync-npm-version-to-jsr/compare/v1.0.5...v1.0.6) (2025-07-31)
 
 
