@@ -7,9 +7,7 @@ on:
 jobs:
   release-to-npm:
     name: NPM
-    uses: node-modules/github-actions/.github/workflows/npm-release.yml@npm-trusted-publish
-    with:
-      action_ref: npm-trusted-publish
+    uses: node-modules/github-actions/.github/workflows/npm-release.yml@master
 
   release-to-jsr:
     name: JSR
