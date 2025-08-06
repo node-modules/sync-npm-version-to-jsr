@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.1.1 (2025-08-06)</small>
+
+* fix: add GIT_TOKEN ([f6e51d3](https://github.com/node-modules/sync-npm-version-to-jsr/commit/f6e51d3))
+
 ## 1.1.0 (2025-08-06)
 
 * feat: use npm trusted publisher (#1) ([004235f](https://github.com/node-modules/sync-npm-version-to-jsr/commit/004235f)), closes [#1](https://github.com/node-modules/sync-npm-version-to-jsr/issues/1)
