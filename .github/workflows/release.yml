@@ -8,6 +8,8 @@ jobs:
   release-to-npm:
     name: NPM
     uses: node-modules/github-actions/.github/workflows/npm-release.yml@npm-trusted-publish
+    secrets:
+      GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
     with:
       action_ref: npm-trusted-publish
       dryRun: true
