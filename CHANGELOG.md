@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.1.3 (2025-08-07)</small>
+
+* fix: set mini version to Node.js 22.18.0 ([dd326e2](https://github.com/node-modules/sync-npm-version-to-jsr/commit/dd326e2))
+
 ## <small>1.1.2 (2025-08-07)</small>
 
 * fix: remove --experimental-strip-types ([67a655d](https://github.com/node-modules/sync-npm-version-to-jsr/commit/67a655d))
