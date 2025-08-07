@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.1.4 (2025-08-07)</small>
+
+* fix: remove src from files ([1b71cea](https://github.com/node-modules/sync-npm-version-to-jsr/commit/1b71cea))
+
 ## <small>1.1.3 (2025-08-07)</small>
 
 * fix: set mini version to Node.js 22.18.0 ([dd326e2](https://github.com/node-modules/sync-npm-version-to-jsr/commit/dd326e2))
