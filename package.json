@@ -49,8 +49,7 @@
     ]
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "type": "module",
   "bin": {
