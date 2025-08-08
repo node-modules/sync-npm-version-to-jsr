@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.1.5 (2025-08-08)</small>
+
+* fix: remove unused dev deps ([d8ccd3c](https://github.com/node-modules/sync-npm-version-to-jsr/commit/d8ccd3c))
+
 ## <small>1.1.4 (2025-08-07)</small>
 
 * fix: remove src from files ([1b71cea](https://github.com/node-modules/sync-npm-version-to-jsr/commit/1b71cea))
